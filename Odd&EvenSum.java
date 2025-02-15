@@ -15,4 +15,22 @@ for (int i=0; 17; 1++) {
 if(x[1]%2==0){
 
 even-even+x[i];
+}
 
+else{
+
+odd-odd+x[i];
+
+}
+
+}
+
+System.out.println(odd);
+
+System.out.println(even);
+
+}
+
+
+
+}
