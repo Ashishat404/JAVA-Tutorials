@@ -4,4 +4,5 @@ public static void main(String[] args) {
       int max = array[0];
 
         for (int i = 1; i < array.length; i++) {
-              
+     if (array[i] > max) {
+                    
