@@ -6,4 +6,8 @@ public class SecondLargestElement {
         int firstLargest = Integer.MIN_VALUE;
         int secondLargest = Integer.MIN_VALUE;
 
-        
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] > firstLargest) {
+                secondLargest = firstLargest;
+                firstLargest = array[i];
+          
