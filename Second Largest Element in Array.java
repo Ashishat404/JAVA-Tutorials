@@ -10,4 +10,6 @@ public class SecondLargestElement {
             if (array[i] > firstLargest) {
                 secondLargest = firstLargest;
                 firstLargest = array[i];
-          
+            } else if (array[i] > secondLargest && array[i] != firstLargest) {
+                secondLargest = array[i];
+            
