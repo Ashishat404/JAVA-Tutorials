@@ -12,4 +12,8 @@ public class SecondLargestElement {
                 firstLargest = array[i];
             } else if (array[i] > secondLargest && array[i] != firstLargest) {
                 secondLargest = array[i];
+            }
+        }
+
+        if (secondLargest == Integer.MIN_VALUE) {
             
