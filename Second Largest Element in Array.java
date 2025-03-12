@@ -18,4 +18,8 @@ public class SecondLargestElement {
         if (secondLargest == Integer.MIN_VALUE) {
             System.out.println("There is no second largest element");
         } else {
+System.out.println("The second largest element in the array is: " + secondLargest);
+        }
+    }
+}
             
