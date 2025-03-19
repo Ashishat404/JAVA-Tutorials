@@ -10,4 +10,8 @@ public class FibonacciSeries {
 
             // Compute the next term
             int nextTerm = firstTerm + secondTerm;
-            
+            firstTerm = secondTerm;
+            secondTerm = nextTerm;
+        }
+    }
+}
