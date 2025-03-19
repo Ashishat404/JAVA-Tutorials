@@ -9,4 +9,5 @@ public class FibonacciSeries {
             System.out.print(firstTerm + ", ");
 
             // Compute the next term
+            int nextTerm = firstTerm + secondTerm;
             
