@@ -23,3 +23,8 @@ overriding the display method
     @Override
     public void display() {
         // Option 1: Call a specific 
+interface's method
+        B.super.display(); // Calls display from interface B
+        // C.super.display(); // Calls display from interface C
+
+        // 
