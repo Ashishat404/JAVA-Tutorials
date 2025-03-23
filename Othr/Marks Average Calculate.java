@@ -11,3 +11,8 @@ Scanner(System.in);
 
         // Input marks for Chemistry
         System.out.print("Enter marks for 
+Chemistry: ");
+        int chemistry = scanner.nextInt();
+
+        // Input marks for Maths
+        System.out.print("Enter marks for 
