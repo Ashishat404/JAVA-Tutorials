@@ -5,4 +5,9 @@ interface A {
         System.out.println("Display from A");
     }
 }
+interface B extends A {
+    default void display() {
+        System.out.println("Display from B");
+    }
+}
 
