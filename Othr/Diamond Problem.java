@@ -27,4 +27,7 @@ interface's method
         B.super.display(); // Calls display from interface B
         // C.super.display(); // Calls display from interface C
 
-        // 
+        // Option 2: Provide a new implementation
+        // System.out.println("Display from D");
+    }
+}
