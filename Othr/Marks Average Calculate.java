@@ -22,4 +22,9 @@ Maths: ");
         // Calculate average
         double average = (physics + chemistry + maths) / 3.0;
 
-        // 
+        // Print average
+        System.out.println("Average marks: " + average);
+
+        scanner.close();
+    }
+}
