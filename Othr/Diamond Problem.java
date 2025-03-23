@@ -11,3 +11,9 @@ interface B extends A {
     }
 }
 
+interface C extends A {
+    default void display() {
+        System.out.println("Display from C");
+    }
+}
+
