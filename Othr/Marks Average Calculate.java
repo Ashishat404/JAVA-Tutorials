@@ -16,3 +16,10 @@ Chemistry: ");
 
         // Input marks for Maths
         System.out.print("Enter marks for 
+Maths: ");
+        int maths = scanner.nextInt();
+
+        // Calculate average
+        double average = (physics + chemistry + maths) / 3.0;
+
+        // 
