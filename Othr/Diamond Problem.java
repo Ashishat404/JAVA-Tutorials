@@ -17,3 +17,5 @@ interface C extends A {
     }
 }
 
+class D implements B, C {
+    // Resolve the diamond problem by 
