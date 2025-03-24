@@ -9,4 +9,5 @@ class Parent {
 }
 
 class Child extends Parent {
+    int num = 200;
     
