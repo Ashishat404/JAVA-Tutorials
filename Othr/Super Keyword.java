@@ -3,4 +3,8 @@ class Parent {
     Parent() {
         System.out.println("Parent Constructor");
     }
-    
+    void display() {
+        System.out.println("Parent Method");
+    }
+}
+
