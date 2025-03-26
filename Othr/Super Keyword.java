@@ -15,3 +15,5 @@ class Child extends Parent {
         System.out.println("Child Constructor");
     }
 
+void display() {
+        super.display();
