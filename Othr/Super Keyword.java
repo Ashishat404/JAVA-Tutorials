@@ -19,3 +19,5 @@ void display() {
         super.display();// Calls parent class method
 System.out.println("Child Method");
     }
+void show() {
+        System.out.println("Parent num
