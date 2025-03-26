@@ -16,4 +16,4 @@ class Child extends Parent {
     }
 
 void display() {
-        super.display();
+        super.display();// Calls parent class method
