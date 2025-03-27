@@ -25,4 +25,5 @@ System.out.println("Child num: " + this.num);
  }
 }
 
-public class Main
+public class Main{
+public static void main
