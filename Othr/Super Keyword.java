@@ -20,4 +20,4 @@ void display() {
 System.out.println("Child Method");
     }
 void show() {
-        System.out.println("Parent num
+        System.out.println("Parent num: " + super.num);
