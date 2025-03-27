@@ -22,3 +22,5 @@ System.out.println("Child Method");
 void show() {
         System.out.println("Parent num: " + super.num);// Access parent class variable
 System.out.println("Child num: " + this.num);
+ }
+}
