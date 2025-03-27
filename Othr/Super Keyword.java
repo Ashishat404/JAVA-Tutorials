@@ -24,3 +24,5 @@ void show() {
 System.out.println("Child num: " + this.num);
  }
 }
+
+public class Main
