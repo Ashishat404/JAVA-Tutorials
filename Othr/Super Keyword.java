@@ -27,4 +27,4 @@ System.out.println("Child num: " + this.num);
 
 public class Main{
 public static void main(String[] args){
- Child child = new Child
+ Child child = new Child();
