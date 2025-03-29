@@ -8,4 +8,5 @@ class Animal {
 
 // Subclass
 class Dog extends Animal {
+    // Overriding the sound method
     
