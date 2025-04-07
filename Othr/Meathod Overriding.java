@@ -17,4 +17,4 @@ class Dog extends Animal {
 public class MethodOverridingExample{
     public static void main(String[] args) {
   Animal myAnimal = new Animal();// Animal refrence and object
-Animal myDog = new Dog()
+Animal myDog = new Dog();
