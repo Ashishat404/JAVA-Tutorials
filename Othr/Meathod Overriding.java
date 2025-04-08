@@ -20,4 +20,4 @@ public class MethodOverridingExample{
 Animal myDog = new Dog();
 // Animal reference but Dog object
     myAnimal.sound(); // Calls the meathod in Animal class myDog.sound();
-// Calls the overridden method 
+// Calls the overridden method in dog class
