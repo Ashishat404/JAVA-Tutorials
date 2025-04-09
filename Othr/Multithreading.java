@@ -8,4 +8,5 @@ System.out.println(Thread.currentThread().getId() + " Value: " + i);
 
 public class MultithreadingExample {
     public static void main(String[] args) {
+        MyThread t1 = new MyThread();
         
