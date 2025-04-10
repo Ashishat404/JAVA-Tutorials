@@ -18,6 +18,6 @@ public class MultithreadingExample {
 }
 
 
-// using runnable interface
+
 
 
