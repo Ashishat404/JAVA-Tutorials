@@ -10,4 +10,5 @@ class MyRunnable implements Runnable {
 public class MultithreadingExample {
     public static void main(String[] args) {
         Thread t1 = new Thread(new MyRunnable());
+        Thread t2 = new Thread(new MyRunnable());
         
