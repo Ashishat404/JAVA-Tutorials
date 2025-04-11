@@ -8,4 +8,5 @@ class MyRunnable implements Runnable {
 
 
 public class MultithreadingExample {
-    
+    public static void main(String[] args) {
+        
