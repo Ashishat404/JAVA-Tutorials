@@ -8,4 +8,5 @@ try {
 }
 
 public void myMethod() throws IOException {
-    
+    throw new IOException("File not found");
+}
