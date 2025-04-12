@@ -6,3 +6,6 @@ try {
 } catch (ExceptionType2 e2) {
     // Handle exception e2
 }
+
+public void myMethod() throws IOException {
+    
