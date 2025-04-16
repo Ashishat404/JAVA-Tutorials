@@ -19,4 +19,6 @@ public class ExceptionHandlingExample {
         try {
             // This code may throw an IOException
             FileReader file = new FileReader("test.txt");
+            BufferedReader fileInput = new BufferedReader(file);
+
             
