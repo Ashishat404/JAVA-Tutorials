@@ -10,3 +10,8 @@ try {
 public void myMethod() throws IOException {
     throw new IOException("File not found");
 }
+
+
+// try catch finally
+import java.io.*;
+
