@@ -20,5 +20,6 @@ public class ExceptionHandlingExample {
             // This code may throw an IOException
             FileReader file = new FileReader("test.txt");
             BufferedReader fileInput = new BufferedReader(file);
-
+// Print the first line of the file
+            
             
