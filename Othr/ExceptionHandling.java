@@ -15,4 +15,7 @@ public void myMethod() throws IOException {
 // try catch finally
 import java.io.*;
 public class ExceptionHandlingExample {
-    
+    public static void main(String[] args) {
+        try {
+            // This code may throw an IOException
+            
