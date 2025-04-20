@@ -6,4 +6,7 @@ class Restaurant {
             try {
                 System.out.println("Customer is waiting for food...");
                 wait(); // Customer waits until notified
-                
+                  } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
