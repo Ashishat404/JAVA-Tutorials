@@ -12,3 +12,5 @@ class Restaurant {
         }
 System.out.println("Customer is served food. Enjoy the meal!");
 foodReady = false; // Reset foodReady for the next order
+notify(); // Notify chef that food has been served
+    }
