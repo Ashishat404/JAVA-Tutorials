@@ -15,3 +15,4 @@ foodReady = false; // Reset foodReady for the next order
 notify(); // Notify chef that food has been served
     }
 // Prepare food method (Chef prepares and notifies customer)
+  public synchronized void prepareFood() 
