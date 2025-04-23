@@ -10,3 +10,4 @@ class Restaurant {
                 e.printStackTrace();
             }
         }
+System.out.println("Customer is served food. Enjoy the meal!");
