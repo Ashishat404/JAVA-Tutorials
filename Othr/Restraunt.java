@@ -22,4 +22,6 @@ try {
  wait(); // Chef waits until food is served
 } catch (InterruptedException e) {
                 e.printStackTrace();
+     }
+        }
 
