@@ -20,4 +20,6 @@ notify(); // Notify chef that food has been served
 try {
                 System.out.println("Chef is waiting to prepare food...");
  wait(); // Chef waits until food is served
-} catch (InterruptedException e)
+} catch (InterruptedException e) {
+                e.printStackTrace();
+
