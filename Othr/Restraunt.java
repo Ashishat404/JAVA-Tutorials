@@ -19,4 +19,4 @@ notify(); // Notify chef that food has been served
         while (foodReady) {
 try {
                 System.out.println("Chef is waiting to prepare food...");
- wait();
+ wait(); // Chef waits until food is served
