@@ -29,3 +29,5 @@ notify(); // Notify chef that food has been served
         try {
             Thread.sleep(20000); // Simulate time taken to prepare food
         }  catch (InterruptedException e) {
+            e.printStackTrace();
+        }
