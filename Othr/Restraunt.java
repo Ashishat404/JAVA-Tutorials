@@ -26,4 +26,5 @@ notify(); // Notify chef that food has been served
              }
         }
         System.out.println("Chef is preparing food...");
-
+        try {
+            Thread.sleep(20000); 
