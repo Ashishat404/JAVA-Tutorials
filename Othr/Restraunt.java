@@ -18,11 +18,12 @@ notify(); // Notify chef that food has been served
 // Prepare food method (Chef prepares and notifies customer)
   public synchronized void prepareFood() ) {
         while (foodReady) {
-try {
+            try {
                 System.out.println("Chef is waiting to prepare food...");
- wait(); // Chef waits until food is served
-} catch (InterruptedException e) {
+                wait(); // Chef waits until food is served
+             } catch (InterruptedException e) {
                 e.printStackTrace();
-     }
+             }
         }
+        System.out.println("Chef is preparing food...");
 
