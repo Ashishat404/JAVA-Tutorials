@@ -32,3 +32,6 @@ notify(); // Notify chef that food has been served
             e.printStackTrace();
         }
         foodReady = true; // Food is ready
+        System.out.println("Chef has prepared the food and notifies the customer.");
+        notify();
+      
