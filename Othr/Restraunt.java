@@ -31,3 +31,4 @@ notify(); // Notify chef that food has been served
         }  catch (InterruptedException e) {
             e.printStackTrace();
         }
+        foodReady = true; // Food is ready
