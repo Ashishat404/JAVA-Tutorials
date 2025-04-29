@@ -36,4 +36,4 @@ notify(); // Notify chef that food has been served
         notify();// Notify customer that food is ready
     }
 }
-      
+public class RestaurantSimulation {
