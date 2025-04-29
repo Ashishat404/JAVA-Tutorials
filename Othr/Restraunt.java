@@ -37,3 +37,4 @@ notify(); // Notify chef that food has been served
     }
 }
 public class RestaurantSimulation {
+    public static void main(String[] args) {
