@@ -33,5 +33,7 @@ notify(); // Notify chef that food has been served
         }
         foodReady = true; // Food is ready
         System.out.println("Chef has prepared the food and notifies the customer.");
-        notify();
+        notify();// Notify customer that food is ready
+    }
+}
       
