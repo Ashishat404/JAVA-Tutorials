@@ -47,4 +47,6 @@ public class RestaurantSimulation {
                 try {
                     Thread.sleep(1000); // Simulate the time customer takes to eat
                 } catch (InterruptedException e) {
-                    
+                    e.printStackTrace();
+                }
+            }
