@@ -51,3 +51,5 @@ public class RestaurantSimulation {
                 }
             }
         });
+        // Chef thread
+        Thread chef = new Thread(() -> {
