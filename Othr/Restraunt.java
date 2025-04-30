@@ -42,3 +42,6 @@ public class RestaurantSimulation {
         
         // Customer thread
         Thread customer = new Thread(() -> {
+            while (true) {
+                restaurant.serveFood();
+                
