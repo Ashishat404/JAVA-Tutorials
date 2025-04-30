@@ -44,4 +44,6 @@ public class RestaurantSimulation {
         Thread customer = new Thread(() -> {
             while (true) {
                 restaurant.serveFood();
+                try {
+                    Thread.sleep(1000); // Simulate the time customer takes to eat
                 
