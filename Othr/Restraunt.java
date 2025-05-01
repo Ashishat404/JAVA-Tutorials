@@ -58,4 +58,4 @@ public class RestaurantSimulation {
             }
         });
 
-    customer.start
+    customer.start();
