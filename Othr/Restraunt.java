@@ -57,3 +57,5 @@ public class RestaurantSimulation {
                 restraunt.prepareFood();
             }
         });
+
+    customer.start
