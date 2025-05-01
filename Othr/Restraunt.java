@@ -58,5 +58,6 @@ public class RestaurantSimulation {
             }
         });
 
-    customer.start();
-    chef.start()
+        customer.start();
+        chef.start();
+    } 
