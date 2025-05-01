@@ -59,3 +59,4 @@ public class RestaurantSimulation {
         });
 
     customer.start();
+    chef.start()
