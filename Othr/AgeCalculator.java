@@ -9,4 +9,4 @@ public class AgeCalculator {
 System.out.println("Enter Your Birth Year");
     int y = Sc.nextInt();
 System.out.println("Enter Your Birth Month");
-   
+    int z = Sc.nextInt();
