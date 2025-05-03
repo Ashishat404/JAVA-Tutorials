@@ -12,3 +12,5 @@ System.out.println("Enter Your Birth Month");
     int z = Sc.nextInt();
 System.out.println("Enter Your Birth Date");
     int a = Sc.nextInt();
+
+LocalDate current = LocalDate.now();
