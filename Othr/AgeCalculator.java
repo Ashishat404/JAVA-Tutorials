@@ -8,3 +8,5 @@ public class AgeCalculator {
     Scanner Sc = new Scanner(System.in);
 System.out.println("Enter Your Birth Year");
     int y = Sc.nextInt();
+System.out.println("Enter Your Birth Month");
+   
