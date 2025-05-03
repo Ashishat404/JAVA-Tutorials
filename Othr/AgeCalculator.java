@@ -11,3 +11,4 @@ System.out.println("Enter Your Birth Year");
 System.out.println("Enter Your Birth Month");
     int z = Sc.nextInt();
 System.out.println("Enter Your Birth Date");
+    int a = Sc.nextInt();
