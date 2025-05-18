@@ -12,5 +12,4 @@ public class FileHandling {
             } else {
                   System.out.println("File already exists.");
             }
-        } 
-          
+        } catch (IOException e) {
