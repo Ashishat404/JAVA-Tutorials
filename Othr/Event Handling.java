@@ -8,4 +8,5 @@ public class EventExample {
         b.setBounds(50, 100, 60, 30);
 
         // Registering an event listener
+         b.addActionListener(new 
         
