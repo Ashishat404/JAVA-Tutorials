@@ -13,4 +13,5 @@ public class EventExample {
                 System.out.println("Button clicked!");
             }
         });
-    
+
+        f.add(b);
