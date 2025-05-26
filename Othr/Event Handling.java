@@ -9,5 +9,8 @@ public class EventExample {
 
         // Registering an event listener
         b.addActionListener(new 
-        public void actionPerformed(ActionEvent e) {
-            System.out.println("Button clicked!");
+            public void actionPerformed(ActionEvent e) {
+                System.out.println("Button clicked!");
+            }
+        });
+    
