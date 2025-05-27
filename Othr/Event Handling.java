@@ -18,3 +18,4 @@ public class EventExample {
         f.setSize(200,200);
         f.setLayout(null);
         f.set.Visible(true);
+    }
