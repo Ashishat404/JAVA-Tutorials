@@ -10,3 +10,5 @@ class InsufficientBalanceException extends Exception {
     super(message);
   }
 }
+class ExceedTransactionLimitException extends Exception {
+  
