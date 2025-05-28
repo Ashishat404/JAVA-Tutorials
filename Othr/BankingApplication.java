@@ -6,4 +6,7 @@
 
 import java.util.*;
 class InsufficientBalanceException extends Exception {
-  public InsufficientBalanceException(String message)
+  public InsufficientBalanceException(String message) {
+    super(message);
+  }
+}
