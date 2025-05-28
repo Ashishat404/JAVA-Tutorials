@@ -5,4 +5,5 @@
 //-> One day transaction exceeds 1 lakh. 
 
 import java.util.*;
-class InsufficientBalanceException extends Exception
+class InsufficientBalanceException extends Exception {
+  public InsufficientBalanceException(String message)
