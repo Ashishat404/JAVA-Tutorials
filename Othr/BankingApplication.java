@@ -11,4 +11,4 @@ class InsufficientBalanceException extends Exception {
   }
 }
 class ExceedTransactionLimitException extends Exception {
-  
+  public ExceedTransactionLimitException(String message) {
