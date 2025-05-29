@@ -16,3 +16,4 @@ class ExceedTransactionLimitException extends Exception {
   }
 }
 class ExcessiveTransactionAmountException extends Exception {
+  public ExcessiveTransactionAmmountException(String message)
