@@ -15,3 +15,4 @@ class ExceedTransactionLimitException extends Exception {
     super(message);
   }
 }
+class ExcessiveTransactionAmountException extends Exception {
