@@ -20,3 +20,5 @@ class ExcessiveTransactionAmountException extends Exception {
     super(message);
   }
 }
+
+class bankAccount {
