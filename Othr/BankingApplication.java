@@ -22,3 +22,4 @@ class ExcessiveTransactionAmountException extends Exception {
 }
 
 class bankAccount {
+  private double balance;
