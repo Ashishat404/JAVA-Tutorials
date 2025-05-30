@@ -25,3 +25,4 @@ class bankAccount {
   private double balance;
   private int transactionCount;
   private double dailyTransactionAmount;
+  private static final int MAX_TRANSACTIONS = 3;
