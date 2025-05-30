@@ -29,4 +29,5 @@ class bankAccount {
   private static final double MAX_DAILY_AMOUNT = 100000;
 
   public BankAccount(double initialBalance) {
+    this.balance = initialBalance;
     
