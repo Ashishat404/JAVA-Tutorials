@@ -24,4 +24,4 @@ class ExcessiveTransactionAmountException extends Exception {
 class bankAccount {
   private double balance;
   private int transactionCount;
-  
+  private double dailyTransactionAmount;
