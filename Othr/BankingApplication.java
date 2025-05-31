@@ -34,3 +34,4 @@ class bankAccount {
     this.dailyTransactionAmount = 0;
   }
   public void withdraw(double amount) throws
+  InsufficientBalanceException,
