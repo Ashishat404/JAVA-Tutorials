@@ -32,3 +32,5 @@ class bankAccount {
     this.balance = initialBalance;
     this.transactionCount = 0;
     this.dailyTransactionAmount = 0;
+  }
+  public void withdraw(double amount) throws
