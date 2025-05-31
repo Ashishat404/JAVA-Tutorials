@@ -35,3 +35,4 @@ class bankAccount {
   }
   public void withdraw(double amount) throws
   InsufficientBalanceException,
+  ExceedTransactionLimitException,
