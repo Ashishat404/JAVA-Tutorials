@@ -31,4 +31,4 @@ class bankAccount {
   public BankAccount(double initialBalance) {
     this.balance = initialBalance;
     this.transactionCount = 0;
-    
+    this.dailyTransactionAmount = 0;
