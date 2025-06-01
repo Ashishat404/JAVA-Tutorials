@@ -37,3 +37,6 @@ class bankAccount {
   InsufficientBalanceException,
   ExceedTransactionLimitException,
   ExcessiveTransactionAmountException {
+    if (transactionCount >= MAX_TRANSACTIONS) {
+      
+    
