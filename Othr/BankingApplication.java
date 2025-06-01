@@ -38,6 +38,8 @@ class bankAccount {
   ExceedTransactionLimitException,
   ExcessiveTransactionAmountException {
     if (transactionCount >= MAX_TRANSACTIONS) {
-        throw new ExceedTransactionLimitException 
+        throw new ExceedTransactionLimitException
+        ("Transaction count exceeded the daily limit.");
+    }
       
     
