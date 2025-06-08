@@ -41,3 +41,6 @@ class bankAccount {
     if (dailyTransactionAmount + amount > MAX_DAILY_AMOUNT) {
       throw new ExceesiveTransactionAmmountException("One day transaction exceeds 1 lakh.");
     }
+    if (balance - amount < 1000) {
+      throw new InsufficientBalanceException("Insufficient balance: Minimum balance must be 1000.");
+    }  
