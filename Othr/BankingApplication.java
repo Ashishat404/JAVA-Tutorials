@@ -48,3 +48,4 @@ class bankAccount {
     }
 
     balance -= amount;
+    dailyTransactionAmount += amount;
