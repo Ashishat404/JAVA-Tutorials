@@ -44,4 +44,5 @@ class bankAccount {
     if (balance - amount < 1000) {
       throw new InsufficientBalanceException("Insufficient balance: Minimum balance must be 1000.");
     }  
-    if (amount > balance) {
+    if (amount > balance) {throw new InsufficientBalanceException("Withdrawal amount is greater than balance amount.");
+    }
