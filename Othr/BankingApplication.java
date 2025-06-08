@@ -46,3 +46,5 @@ class bankAccount {
     }  
     if (amount > balance) {throw new InsufficientBalanceException("Withdrawal amount is greater than balance amount.");
     }
+
+    balance -= amount;
