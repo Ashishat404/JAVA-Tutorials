@@ -53,3 +53,5 @@ class bankAccount {
     System.out.println("Withdrawl successful. New balance: " + balance);
   }
 }
+public class BankingApplication {
+    public static void main(String[] args) {
