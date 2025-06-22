@@ -60,3 +60,5 @@ public class BankingApplication {
 
       try{
         System.out.println("Enter withdrawl amount:  ");
+         double amount = scanner.nextDouble();
+            account.withdraw(amount);
