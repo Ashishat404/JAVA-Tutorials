@@ -49,3 +49,7 @@ class bankAccount {
 
     balance -= amount;
     dailyTransactionAmount += amount;
+    transactionCount++;
+    System.out.println("Withdrawl successful. New balance: " + balance);
+  }
+}
