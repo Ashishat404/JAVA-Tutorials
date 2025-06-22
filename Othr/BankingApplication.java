@@ -55,3 +55,8 @@ class bankAccount {
 }
 public class BankingApplication {
     public static void main(String[] args) {
+      Scanner scanner = new Scanner(System.in);
+      BankAccount account = new BankAccount(5000);
+
+      try{
+        System.out.println("Enter withdrawl amount:  ");
