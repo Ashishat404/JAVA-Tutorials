@@ -14,3 +14,8 @@ public class J_08_Operators {
         // 3. Comparison operators
        // System.out.println(64<6); 
 
+        // 4. logical operators
+        System.out.println(64>5 && 64>81);
+        System.out.println(64>5 || 64>81); // OR || if any one of them is true then it's true
+
+
