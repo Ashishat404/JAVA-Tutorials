@@ -5,3 +5,8 @@ public class J_08_Operators {
       //int b = 6 % a;       // Modulo Operator
     //   4.8%1.1 --> Returns decimal remainder
         // Arithmatic operators cannot work with booleans
+
+         // 2. Assignment Operators
+        int b =9;
+        b += 3;
+        System.out.println(b);
