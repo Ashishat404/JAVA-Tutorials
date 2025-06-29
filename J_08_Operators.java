@@ -10,3 +10,7 @@ public class J_08_Operators {
         int b =9;
         b += 3;
         System.out.println(b);
+
+        // 3. Comparison operators
+       // System.out.println(64<6); 
+
