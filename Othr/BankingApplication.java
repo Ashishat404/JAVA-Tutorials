@@ -64,3 +64,9 @@ public class BankingApplication {
             account.withdraw(amount);
         } catch (InsufficientBalanceException | ExceedTransactionLimitException | ExcessiveTransactionAmountException e) {
         System.out.println("Transaction failed: "+e.getMessage());
+      }
+      
+
+        scanner.close();
+    }
+}
