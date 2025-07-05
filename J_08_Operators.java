@@ -22,4 +22,4 @@ public class J_08_Operators {
         // 11
         // -------
         // 10
-    
+        System.out.println(2&3); // the O/P will be 2 
