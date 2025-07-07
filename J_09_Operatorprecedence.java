@@ -15,3 +15,4 @@ public class J_09_OperatorPrecedence {
          = 12-68
          = -56
          */
+        System.out.println(a);
