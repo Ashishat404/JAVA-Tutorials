@@ -10,3 +10,8 @@ public class J_09_OperatorPrecedence {
          =13
                 */
         int b = 60/5-34*2;
+        /*
+         = 12-34*2
+         = 12-68
+         = -56
+         */
