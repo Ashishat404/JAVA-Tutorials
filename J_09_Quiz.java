@@ -4,3 +4,5 @@ public class J_09_Quiz {
         int x = 6;
         int y = 1;
         // int k = x*y/2;
+         int b = 1;
+        int c = 4;
