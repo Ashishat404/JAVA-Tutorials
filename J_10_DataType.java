@@ -5,3 +5,4 @@ public class J_10_DataType {
        short z = 8;
        int a = y + z;
        float b = 6.54f + x;
+       System.out.println(b);
