@@ -18,3 +18,4 @@ public class J_10_DataType {
         System.out.println(i);
 
         int m = 7;
+        int n = ++y*8;
