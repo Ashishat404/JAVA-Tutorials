@@ -8,6 +8,7 @@ public class J_10_DataType {
         System.out.println(b);
 
         // Increment and Decrement Operator
-         int i = 56;
+        int i = 56;
          // int b = i++; // first b is assigned i (56) then i is incremented
+        int j = 67;
         
