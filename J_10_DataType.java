@@ -11,4 +11,4 @@ public class J_10_DataType {
         int i = 56;
          // int b = i++; // first b is assigned i (56) then i is incremented
         int j = 67;
-        
+        int c = ++j ; // first j is incremented then c is assigned j (68)
