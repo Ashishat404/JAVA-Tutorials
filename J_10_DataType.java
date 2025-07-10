@@ -15,3 +15,4 @@ public class J_10_DataType {
         System.out.println(i++);
         System.out.println(i);
         System.out.println(++i);
+        System.out.println(i);
