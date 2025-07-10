@@ -4,3 +4,4 @@ public class J_10_DataType {
        int y = 6;
        short z = 8;
        int a = y + z;
+       float b = 6.54f + x;
