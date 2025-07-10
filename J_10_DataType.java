@@ -13,3 +13,4 @@ public class J_10_DataType {
         int j = 67;
         int c = ++j ; // first j is incremented then c is assigned j (68)
         System.out.println(i++);
+        System.out.println(i);
