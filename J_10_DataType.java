@@ -20,3 +20,4 @@ public class J_10_DataType {
         int m = 7;
         int n = ++y*8;
         System.out.println("the value of n is below :");
+        System.out.println(n);
