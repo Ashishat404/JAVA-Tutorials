@@ -21,3 +21,5 @@ public class J_10_DataType {
         int n = ++y*8;
         System.out.println("the value of n is below :");
         System.out.println(n);
+         char ch = 'a';
+        System.out.println(++ch);
