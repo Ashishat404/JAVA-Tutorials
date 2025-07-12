@@ -23,3 +23,7 @@ public class J_10_DataType {
         System.out.println(n);
          char ch = 'a';
         System.out.println(++ch);
+        
+    }
+}
+
