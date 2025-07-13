@@ -9,3 +9,4 @@ public class J_13_Strings {
        // System.out.print(name);
 
         /* int a = 6;
+        float b = 5.6454f;
