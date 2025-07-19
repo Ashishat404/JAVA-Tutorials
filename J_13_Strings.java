@@ -12,3 +12,4 @@ public class J_13_Strings {
         float b = 5.6454f;
         System.out.printf("The value of a is %d and value of b is %f " ,a,b);
         */
+        Scanner sc = new Scanner(System.in);
