@@ -16,4 +16,7 @@ public class J_13_Strings {
         // String st = sc.next(); // this just takes one word 
         String st = sc.nextLine();
         System.out.println(st);
-        
+
+    }
+}
+
