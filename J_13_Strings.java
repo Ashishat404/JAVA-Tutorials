@@ -13,3 +13,5 @@ public class J_13_Strings {
         System.out.printf("The value of a is %d and value of b is %f " ,a,b);
         */
         Scanner sc = new Scanner(System.in);
+        // String st = sc.next(); // this just takes one word 
+        
