@@ -4,3 +4,4 @@ public class J_14_StringMeathods {
         String name = "AShish"; // variable's name is name
         //System.out.println(name);
         int value = name.length();
+        System.out.println(value); 
