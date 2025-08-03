@@ -5,3 +5,5 @@ public class J_14_StringMeathods {
         //System.out.println(name);
         int value = name.length();
         System.out.println(value); 
+
+        String lString = name.toLowerCase();
