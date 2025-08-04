@@ -9,3 +9,6 @@ public class J_14_StringMeathods {
         String lString = name.toLowerCase();
         System.out.println(lString);
        
+    }
+}
+
