@@ -7,3 +7,5 @@ public class J_14_StringMeathods {
         System.out.println(value); 
 
         String lString = name.toLowerCase();
+        System.out.println(lString);
+       
