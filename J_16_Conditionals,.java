@@ -7,3 +7,6 @@ public class J_16_Conditionals {
     if(cond){
       System.out.println("yes you can apply further");
         }
+     else{
+            System.out.println(" NO! you cannot apply further");
+        }
