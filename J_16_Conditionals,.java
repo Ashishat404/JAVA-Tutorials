@@ -10,3 +10,6 @@ public class J_16_Conditionals {
      else{
             System.out.println(" NO! you cannot apply further");
         }
+    }
+}
+
