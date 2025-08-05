@@ -4,3 +4,4 @@ public class J_16_Conditionals {
     int age = 18 ; // int age assign 18 we are assigning the value 18
     boolean cond = (age==18);
         
+    if(cond){
