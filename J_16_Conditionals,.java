@@ -5,3 +5,5 @@ public class J_16_Conditionals {
     boolean cond = (age==18);
         
     if(cond){
+      System.out.println("yes you can apply further");
+        }
